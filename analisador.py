@@ -127,8 +127,6 @@ def main():
 
     lexico = {**lexico_lem, **lexico_flex}
 
-    print(f"Polaridade de 'odeio': {lexico.get('odeio')}")
-
     if not lexico:
         print("Erro ao carregar o léxico. Encerrando...")
         return
